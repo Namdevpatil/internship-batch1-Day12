@@ -1,0 +1,82 @@
+1. try-catch blocks
+
+try
+{
+	//problematic statements
+}
+catch(//exception class)
+{
+	//handler part
+}
+-----------------------------------------------------------------
+2. try-catch-catch..catch-n blocks
+
+try
+{
+	//problematic statements
+}
+catch(//exception class)//1
+{
+	//handler part
+}
+catch(//exception class)//2
+{
+	//handler part
+}
+catch(//exception class)//3
+{
+	//handler part
+}
+
+-------------------------------------------------------------------
+3. try-catch-finally
+
+try
+{
+	//problematic statements
+}
+catch(//exception class)
+{
+	//handler part
+}
+finally
+{
+	//compulsory executed block
+}
+
+-------------------------------------------------------------------
+4. try-finally
+
+try
+{
+	//problematic statements
+}
+finally
+{
+	//compulsory executed block
+}
+
+-------------------------------------------------------------------
+5. Nested try-catch
+
+try
+{
+	//problematic statements
+	//nested try catch
+	try
+	{
+		//problematic statements
+	}
+	catch(//exception class)
+	{
+		//handler part
+	}
+}
+catch(//exception class)
+{
+	//handler part
+}
+finally
+{
+	//compulsory executed block
+}
